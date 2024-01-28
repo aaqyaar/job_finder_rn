@@ -1,6 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { LoginScreen, RegisterScreen } from "../screens";
+import React from "react";
 
 export type RootStackParamList = {
   Login: undefined;

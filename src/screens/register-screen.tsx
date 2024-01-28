@@ -14,6 +14,7 @@ import { spacing } from "../theme/spacing";
 import Colors from "../theme/colors";
 import { RootStackParamList } from "../navigators/AppNavigator";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import React from "react";
 
 interface IData {
   username: string;
