@@ -1,3 +1,5 @@
+import { JobListing } from "../types/jobs";
+
 export interface Profile {
   _id: string;
   name: string;
@@ -23,4 +25,11 @@ export interface BadRequestError {
 export interface CredentialError {
   message: string;
   status: "success" | "error";
+}
+
+export interface BaseResponse<T> {
+  numberOfPages: number;
+  currentPage: number;
+  total: number;
+  data: T[];
 }
